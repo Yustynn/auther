@@ -13,10 +13,10 @@
 	</div>
 	<br>
 	<ul class="list-group">
-		<li class="list-group-item story-item">
+		<li class="list-group-item story-item" ng-show="user()">
 			<ul class="list-inline">
 				<li>
-					<span class="large-font" contenteditable ng-model="newStory.title" placeholder="Story Title"></span>
+					<span class="large-font" contenteditable="user()" ng-model="newStory.title" placeholder="Story Title"></span>
 				</li><li>
 					<span>by</span>
 				</li><li>
